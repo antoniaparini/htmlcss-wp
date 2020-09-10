@@ -99,7 +99,7 @@ border-radius: 5px;
 .colonna-1 {
   margin-top: 20px;
   width:20%;
-  height:400px;
+  /*height:400px;*/
   background: #ffffff;
 }
 
@@ -119,7 +119,7 @@ border-radius: 5px;
 .colonna-3 {
   margin-top: 20px;
   width:20%;
-  height:150px;
+  /*height:150px;*/
   background: #ffffff;
   margin-bottom: 5px;
 }
@@ -219,4 +219,8 @@ footer {
 
 .social-list li a i {
   font-size: 40px;
+}
+
+.social-list li:nth-child(2) a i{
+  color: red;
 }

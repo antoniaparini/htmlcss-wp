@@ -1,71 +1,66 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="./css/style.css">
-    <link href="https://googleapis.com/css2?family=Montserrat:wght400;700&family=Roboto:wght400:700&display=swap" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
     <meta charset="utf-8">
     <title>Wordpress</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   </head>
-
   <body>
-    <!--Inizio struttura Sito-->
-    <div id="container">
+    <div class="container">
+      <!-- HEADER -->
       <header>
-        <!--Area Slider Static Image-->
         <div class="header-top">
-          <img src="./img/natural-logo.png" alt="logo natural">
+          <img src="./img/natural-logo.png" alt="">
           <h2>Another beautiful organic theme</h2>
         </div>
 
+        <!-- Menù Navigazione -->
+        <nav class="nav">
+          <ul class="menu">
+            <li>
+              <a href="#"><img src="./img/natural-logo.png" alt=""></a>
+            </li>
+            <li>
+              <a href="#">about</a>
+            </li>
+            <li>
+              <a href="#">page template</a>
+            </li>
+            <li>
+              <a href="#">a parent page</a>
+            </li>
+            <li>
+              <a href="#">features</a>
+            </li>
+            <li>
+              <a href="#">blog</a>
+            </li>
+            <li>
+              <a href="#">contact</a>
+            </li>
+          </ul>
+        </nav>
       </header>
-    </div>
 
-<!--Menu principale-->
-    <nav class="nav">
-      <ul class="menu">
-        <li>
-          <a href="#">Home</a>
-        </li>
-      </ul>
-      <ul class="menu">
-        <li>
-          <a href="#">About</a>
-        </li>
-      </ul>
-      <ul class="menu">
-        <li>
-          <a href="#">Page Template</a>
-        </li>
-      </ul>
-      <ul class="menu">
-        <li>
-          <a href="#">Features</a>
-        </li>
-      </ul>
-      <ul class="menu">
-        <li>
-          <a href="#">Blog</a>
-        </li>
-      </ul>
-      <ul class="menu">
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <main>
-      <!--*Colonna 1*/-->
-      <aside class="colonna-1 col">
+      <!-- MAIN CONTENT -->
+      <main>
+
+        <!-- Colonna Sinistra -->
+        <div class="col-left col">
           <div class="org-header">
-            <div class="org-icon">
+            <div class="org-img">
               <i class="fas fa-rss-square"></i>
-                <div class="org-heading">
-                  <h2>Organic Themes</h2>
-                </div>
+            </div>
+            <div class="org-heading">
+              <h2>Organic Themes</h2>
             </div>
           </div>
-          <ul class="navigazione-laterale">
+
+          <!-- Secondo Menu -->
+          <ul class="secondary-menu">
             <li>
               <a href="#">How to Pick a Wordpress theme for 2019</a>
             </li>
@@ -73,74 +68,64 @@
               <a href="#">The Updated Gutenberg Portfolio Theme</a>
             </li>
             <li>
-              <a href="#">Black Friday Trhough Cyber Monday For Wordpress Website Owners</a>
+              <a href="#">Black Friday Through Cyber Monday Deal for Wordpress Website Owners</a>
             </li>
             <li>
-              <a href="#">Ultimate Guide To Optimizing Your Wordpress Theme For Gutenberg</a>
+              <a href="#">The uiltimate Guide to Optimizing Your Wordpress Theme for Gutenberg</a>
             </li>
             <li>
               <a href="#">A Better Wordpress Page Builder - Organic Builder Widgets Pro</a>
             </li>
           </ul>
-      </aside>
+        </div>
 
-        <!--*Colonna 2*/-->
-        <div class="colonna-2 col">
+        <!-- Colonna Centrale -->
+        <section class="col-center col">
           <h1>Three Column</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
+        </section>
 
-        <!--*Colonna 3*/-->
-        <div class="colonna-3 col">
-          <div class="widget>"
-            <h2>Text widget</h2>
+        <!-- Colonna destra -->
+
+        <div class="col-right">
+          <div class="widget col">
+            <h2>Text Widget</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="widget col">
+            <h2>Text Widget</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="widget col">
+            <h2>Text Widget</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           </div>
         </div>
+      </main>
 
-        <div class="colonna-3 col">
-          <div class="widget>"
-            <h2>Text widget</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-        <div class="colonna-3 col">
-          <div class="widget>"
-            <h2>Text widget</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          </div>
-        </div>
-    </main>
-
-
-<!--Footer-->
-    <footer>
-      <div class="info">
-        <p>Pagina realizzata da Classe 19</p>
-      </div>
-      <hr>
-
-      <div class="icone-social">
-        <ul class="social-list">
+      <!-- FOOTER -->
+      <footer>
+        <p>Pagina realizzata dalla Classe 19</p>
+        <hr>
+        <ul class="menu-social">
           <li>
-            <a href="https://facebook.com" target="_blank">
+            <a href="#">
             <i class="fab fa-facebook-square"></i>
             </a>
           </li>
           <li>
-            <a href="https://instagram.com" target="_blank">
-            <i class="fab fa-instagram"></i>
+            <a href="#">
+              <i class="fab fa-instagram-square"></i>
             </a>
           </li>
           <li>
-            <a href="https://github.com" target="_blank">
-            <i class="fab fa-github"></i>
+            <a href="#">
+              <i class="fab fa-github-square"></i>
             </a>
           </li>
+
         </ul>
-
-      </div>
-    </footer>
-
+      </footer>
+    </div>
   </body>
 </html>
